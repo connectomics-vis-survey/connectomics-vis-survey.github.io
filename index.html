@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- add your own title here -->
+		<title>Filterable Collection Template</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+		<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+		<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+		<script src="config.js"></script>
+	</head>
+	<body>
+		<div id="eventHandler" class="input hidden"></div>
+
+		<div class="grid-container">
+			<div id="controls">
+				<!-- your own title and description here -->
+				<h1>Filterable Collection Template</h1>
+				<p>
+					A template for filterable collections, for example for
+					survey paper companion websites. Check out the GitHub repo
+					to find out how to set it up for your own project!
+				</p>
+
+				<!-- add any links to your paper and relevant materials here -->
+				<a
+					href="https://github.com/sarah37/filterable-collection"
+					target="_blank"
+					>View on GitHub</a
+				>
+
+				<!-- modify headers and labels for your collection as needed -->
+				<h2>Select filters:</h2>
+				<span id="count"></span> / <span id="total"></span> items (<span
+					href="#"
+					id="showall"
+					>show all</span
+				>)
+
+				<div id="filters"></div>
+				<h3>Filter by tag</h3>
+				<div id="filters_data"></div>
+
+				<!-- Please don't remove this note :) -->
+				<br />
+				Website template by
+				<a href="https://github.com/sarah37/" target="_blank"
+					>Sarah Schöttler.</a
+				>
+			</div>
+
+			<div id="container" class="grid"></div>
+		</div>
+
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
