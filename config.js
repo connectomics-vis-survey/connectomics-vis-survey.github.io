@@ -1,5 +1,5 @@
 // specify the csv file containing your collection
-const url = "collection.csv";
+const url = "papers.csv";
 
 // specify your taxonomy
 // Note: display labels will be automatically created by capitalising
