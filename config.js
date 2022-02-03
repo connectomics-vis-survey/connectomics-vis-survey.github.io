@@ -9,7 +9,7 @@ const taxonomy = {
 	alignment: ["2D-Alignment", "3D-Registration"],
 	segmentation: ["Automatic", "Interactive", "Connectivity-Extraction", "Provenance-Tracking"],
 	proofreading: ["Manual", "Semi-Automatic", "Guided-Automatic", "Crowdsourced"],
-	analysis: ["Data-Structures", "Spatial-Exploration", "Connectivity-Exploration", "Communication"]
+	analysis: ["Data-Structures", "Spatial-Exploration", "Connectivity-Exploration", "Vis-focused-Analysis", "Communication"]
 	// facet_a: ["red", "blue"],
 	// facet_b: ["pears", "apples", "oranges"],
 	// facet_c: ["alpha", "beta", "gamma", "delta"]
