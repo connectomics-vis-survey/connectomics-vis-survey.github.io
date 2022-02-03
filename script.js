@@ -41,6 +41,7 @@ if (taxonomy != null) {
 			);
 		})
 		.attr("value", (d) => d);
+
 	checkboxes
 		.append("label")
 		.attr("for", function (d) {
@@ -88,7 +89,6 @@ d3.csv(url, (d, i) => {
 	return d;
 })
 	.then(function (data) {
-		console.log(data);
 
 		// display count
 		d3.selectAll("#count, #total").text(data.length);
@@ -100,11 +100,8 @@ d3.csv(url, (d, i) => {
 				var filters = facets.map(function (facet) {
 					var cats = [];
 					taxonomy[facet].forEach(function (cat) {
-						if (
-							d3
-								.select("#check_" + facet + "_" + cat)
-								.property("checked")
-						) {
+						console.log(facet, "  ", cat);
+						if (d3.select("#check_" + facet + "_" + cat).property("checked")) {
 							cats.push(cat);
 						}
 					});
@@ -148,7 +145,10 @@ d3.csv(url, (d, i) => {
 			.classed("grid-item", true);
 
 		// show image if defined
-		div.filter((d) => d.image != "")
+		div.filter((d) => {
+			console.log(d);
+			return d.image != "";
+		})
 			.append("img")
 			.attr("src", (d) => "img/" + d.image);
 
@@ -165,7 +165,10 @@ d3.csv(url, (d, i) => {
 					.append("div")
 					.classed("tag", true)
 					.classed(facet, true)
-					.html((d) => d[facet]);
+					.html((d) => {
+						console.log("d[facet]:", d[facet]);
+						return d[facet];
+					});
 			});
 		}
 	})

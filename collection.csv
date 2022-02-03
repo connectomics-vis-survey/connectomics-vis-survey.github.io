@@ -1,19 +1,17 @@
 Publication Year,Author,Title,Publication Title,URL,image,facet_a,facet_b,facet_c,tag_1,tag_2,tag_3
-2021,Author Name,Example Item 1,Example Journal,https://www.doi.org/,test.png,red,pears,alpha,yes,no,yes
-2021,Author Name,Example Item 2,Example Journal,https://www.doi.org/,test.png,blue,apples,beta,yes,yes,no
-2021,Author Name,Example Item 3,Example Journal,https://www.doi.org/,,blue,oranges,gamma,no,no,yes
-2021,Author Name,Example Item 4,Example Journal,https://www.doi.org/,test.png,blue,pears,delta,yes,no,yes
-2021,Author Name,Example Item 5,Example Journal,https://www.doi.org/,test.png,blue,apples,alpha,yes,no,no
-2021,Author Name,Example Item 6,Example Journal,https://www.doi.org/,test.png,blue,oranges,beta,no,yes,yes
-2021,Author Name,Example Item 7,Example Journal,https://www.doi.org/,test.png,red,pears,gamma,yes,no,yes
-2021,Author Name,Example Item 8,Example Journal,https://www.doi.org/,,red,apples,delta,yes,no,no
-2021,Author Name,Example Item 9,Example Journal,https://www.doi.org/,test.png,blue,oranges,alpha,no,no,no
-2021,Author Name,Example Item 10,Example Journal,https://www.doi.org/,test.png,blue,pears,beta,yes,yes,no
-2021,Author Name,Example Item 11,Example Journal,https://www.doi.org/,test.png,blue,apples,gamma,no,no,yes
-2021,Author Name,Example Item 12,Example Journal,https://www.doi.org/,,blue,oranges,delta,yes,no,yes
-2021,Author Name,Example Item 13,Example Journal,https://www.doi.org/,test.png,red,pears,alpha,yes,no,yes
-2021,Author Name,Example Item 14,Example Journal,https://www.doi.org/,test.png,red,apples,beta,no,yes,yes
-2021,Author Name,Example Item 15,Example Journal,https://www.doi.org/,test.png,blue,oranges,gamma,yes,no,yes
-
-
-
+2020,"Clements, Jody and Dolafi, Tom and Umayam, Lowell and Neubarth, Nicole L and Berg, Stuart and Scheffer, Louis K and Plaza, Stephen M
+",neuprint: Analysis tools for em connectomics,Bioarxiv,https://doi.org/10.1101/2020.01.16.909465,neuprint.png,,Analysis,GitHub available,yes,yes,no
+2021,Author Name,Example Item 2,Example Journal,https://www.doi.org/,test.png,blu e,apples,beta,yes,yes,no
+2021,Author Name,Example Item 3,Example Journal,https://www.doi.org/,test.png,blu e,oranges,gamma,no,no,yes
+2021,Author Name,Example Item 4,Example Journal,https://www.doi.org/,test.png,,pears,delta,yes,no,yes
+2021,Author Name,Example Item 5,Example Journal,https://www.doi.org/,test.png,bl ue,apples,alpha,yes,no,no
+2021,Author Name,Example Item 6,Example Journal,https://www.doi.org/,test.png,bl ue,oranges,beta,no,yes,yes
+2021,Author Name,Example Item 7,Example Journal,https://www.doi.org/,test.png,,pears,gamma,yes,no,yes
+2021,Author Name,Example Item 8,Example Journal,https://www.doi.org/,test.png,,apples,delta,yes,no,no
+2021,Author Name,Example Item 9,Example Journal,https://www.doi.org/,test.png,bl ue,oranges,alpha,no,no,no
+2021,Author Name,Example Item 10,Example Journal,https://www.doi.org/,test.png,bl ue,pears,beta,yes,yes,no
+2021,Author Name,Example Item 11,Example Journal,https://www.doi.org/,test.png,,apples,gamma,no,no,yes
+2021,Author Name,Example Item 12,Example Journal,https://www.doi.org/,test.png, ,oranges,delta,yes,no,yes
+2021,Author Name,Example Item 13,Example Journal,https://www.doi.org/,test.png,,pears,alpha,yes,no,yes
+2021,Author Name,Example Item 14,Example Journal,https://www.doi.org/,test.png,,apples,beta,no,yes,yes
+2021,Author Name,Example Item 15,Example Journal,https://www.doi.org/,test.png,bl ue,oranges,gamma,yes,no,yes
