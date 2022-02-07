@@ -1,6 +1,6 @@
 # A Survey of Visualization and Analysis in High-Resolution Connectomics
 
-This is a website for the related survey paper currently under submission to EuroVis 2022.
+This is the website for the related survey paper currently under submission to EuroVis 2022.
 
 ## Abstract
 The field of connectomics aims to reconstruct the wiring diagram of neurons and synapses at
