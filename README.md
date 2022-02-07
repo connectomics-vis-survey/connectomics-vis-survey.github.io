@@ -1,4 +1,4 @@
-# A Survey of Visualization and Analysis inHigh-Resolution Connectomics
+# A Survey of Visualization and Analysis in High-Resolution Connectomics
 
 This is a website for the related survey paper currently under submission to EuroVis 2022.
 
