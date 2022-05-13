@@ -6,6 +6,9 @@
 ### Abstract
 The field of connectomics aims to reconstruct the wiring diagram of neurons and synapses to enable new insights into the workings of the brain. Reconstructing and analyzing the neuronal connectivity, however, relies on many individual steps, starting from high-resolution data acquisition to automated segmentation, proofreading, interactive data exploration, and circuit analysis. All of these steps have to handle large and complex datasets and rely on or benefit from integrated visualization methods. In this state-of-the-art report, we describe visualization methods that can be applied throughout the connectomics pipeline, from data acquisition to circuit analysis. We first define the different steps of the pipeline and focus on how visualization is currently integrated into these steps. We also survey open science initiatives in connectomics, including usable open-source tools and publicly available datasets. Finally, we discuss open challenges and possible future directions of this exciting research field.
 
+### Contribute
+If you want to add a relevant paper to our [website](https://connectomics-vis-survey.github.io/), please modify [papers.csv](https://github.com/connectomics-vis-survey/connectomics-vis-survey.github.io/blob/master/papers.csv) accordingly, add a teaser image and submit a pull request. Alternativley, you can also open an issue that includes all relevant information already (teaser image, and categorization).  
+
 ### Cite 
 ```bibtex
 @inproceedings {beyer2022a,
